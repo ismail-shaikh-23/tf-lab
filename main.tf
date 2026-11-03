@@ -14,7 +14,7 @@ provider "aws" {
 
 resource "aws_security_group" "web" {
   name        = "web-sg"
-  description = "Web server security group"
+  description = "Web server security groups"
   #checkov:skip=CKV2_AWS_5:Security group attachment handled separately in this lab
 
   ingress {
